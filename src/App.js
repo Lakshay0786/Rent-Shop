@@ -57,7 +57,7 @@ function App() {
     <div>
       {
         loading ? (
-          <HashLoader color="#36d7b7" />
+          <HashLoader color="#36d7b7" className='hashloader' style={{ display: 'flex' }} />
         )
           : (
             <div>
