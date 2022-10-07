@@ -5,9 +5,7 @@ import heroVid from '../assests/SnapSave.io-God of War- Ragnarok - Teaser Traile
 const Hero = () => {
   return (
     <div className='herodiv'>
-      <video className='videoTag' autoPlay muted>
-        <source src={heroVid} type='video/mp4' />
-      </video>
+
     </div>
   )
 }

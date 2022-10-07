@@ -18,45 +18,15 @@ body {
 
 .herodiv {
   width: 100wh;
-  height: fit-content;
+  height: 100vh;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)),
+    url('https://mobimg.b-cdn.net/v3/fetch/24/241ad7c1f241658269f760331fd3f105.jpeg');
+
 }
 
 .videoTag {
   width: 100%;
-}
-
-.layer {
-  background: transparent;
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  transition: 0.5s;
-}
-
-.layer:hover {
-  background: rgba(226, 0, 0, 0.7);
-  // margin: 10px;
-}
-
-.layer h3 {
-  // width: 100%;
-  font-weight: 500;
-  color: #fff;
-  font-size: 20px;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  display: block;
-  position: absolute;
-  opacity: 0;
-  transition: 0.5s;
-}
-
-.layer:hover h3 {
-  bottom: 40%;
-  margin: 0 auto;
-  // margin-left: 30%;
-  opacity: 1;
 }
